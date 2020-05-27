@@ -1,0 +1,287 @@
+/* START-----Global-----------------
+----------------------------------------- */
+hr {
+  width: 60%;
+  text-align: center; }
+
+body {
+  font-family: 'Arial', sans-serif; }
+
+header {
+  font-family: "Arial", cursive; }
+
+section {
+  min-height: 250px; }
+  section article {
+    padding: 50px; }
+
+h1, h2, h3 {
+  font-family: "Kaushan Script", cursive; }
+
+/*END -----Global-----------------
+----------------------------------------- */
+/*START Header------------------
+------------------------------------------ */
+#top_bar {
+  min-height: 30px;
+  background-color: #2e63a0; }
+
+nav {
+  background-color: #fdfdfd; }
+
+.navbar-brand {
+  font-family: "Indie Flower", cursive;
+  font-size: x-large; }
+
+/* ul menu  Selector */
+#menu-items-bar {
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif; }
+
+.nav-item, .nav-link {
+  color: #2e63a0; }
+
+/* hover on menu pages */
+ul > li a:hover {
+  color: #00a2ff; }
+
+#cover {
+  /* border: 2px solid royalblue; */
+  min-height: 1000px;
+  background: url("img/cover.jpg"), linear-gradient(rgba(0,0,0,0.5),rgba(0, 0, 0, 0.5));
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top; }
+
+#in-cover {
+  padding-top: 450px;
+  text-align: center;
+  margin: 0 auto; }
+
+#in-cover h1, #in-cover h2 {
+  color: rgb(255, 255, 255);
+  font-family: 'Arial';
+  font-weight: bold; 
+  text-shadow: 2px 2px #000000;}
+
+#in-cover > a {
+  margin-top: 10px;}
+
+.btn {
+  color: white; }
+
+/*END Header------------------
+------------------------------------------ */
+/*START  Profile----------------------------
+-------------------------------------------- */
+#profile {
+  margin: 0 auto;
+  text-align: center; }
+  #profile #profile-content {
+    margin-top: 30px; }
+    #profile #profile-content img {
+      border-radius: 50%; }
+    #profile #profile-content p {
+      padding-top: 20px;
+      width: 50%;
+      margin: 0 auto; }
+
+/* END Profile----------------------------
+-------------------------------------------- */
+#about {
+  /* The image used */
+  background: linear-gradient(rgba(245, 246, 246, 0.192), rgba(233, 236, 240, 0.144)), url(img/parallax.jpg);
+  /* Set a specific height */
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+#about article h2 {
+  text-align: left; }
+
+#uni-content {
+  margin: 0 auto;
+  width: 70%; }
+
+.unimoment {
+  margin-top: 30px; }
+
+.creativity {
+  font-family: "Indie Flower", cursive;
+  font-size: large;
+  color: #5d78f0; }
+.stylish {
+  font-family: "Indie Flower", cursive;
+  font-size: large;
+  color: #dbdff3; }
+
+/*START skills------------------
+----------------------------- */
+#skillsbtm {
+  background-color: #2e63a0;
+  padding: 20px;
+  text-align: center;
+  min-height: 50px; }
+
+#skillsbtm h4 {
+  color: white;
+  font-family: "Indie Flower", cursive; }
+
+#wrd {
+  border-right: none; }
+
+.test {
+  padding: 20px;
+  border-right: 1px solid whitesmoke;
+  margin: 10px; }
+
+.imgskill {
+  width: 50px;
+  height: 50px; }
+
+/*END Skills skills------------------
+----------------------------- */
+/* ----Work--Education
+--------------------------------------- */
+#workedu {
+  padding-top: 25px;
+  background-color: #383838;
+  color: white; }
+
+.container-custom {
+  width: 80%;
+  margin: 0 auto; }
+
+.title {
+  color: #386aa3;
+  color: white;
+  font-weight: bold; }
+
+.workedu-content {
+  margin-top: 20px; }
+
+.jobs, .edu {
+  padding: 5px; }
+
+h6 {
+  font-weight: bold;
+  color: whitesmoke; }
+
+#blog_head {
+  border-bottom: 1px solid #f3f3f3;
+  padding-bottom: 5px;
+  margin: 0 auto;
+  text-align: center;
+  color: #494949; }
+
+#posts_area {
+  margin-top: 50px; }
+
+.post {
+  text-align: center;
+  padding: 20px; }
+
+.in-post {
+  width: 80%;
+  margin: 0 auto; }
+
+.post img {
+  padding: 20px;
+  width: 396px;
+  height: 306px; }
+
+.postbtn {
+  width: 85%; }
+
+/* ----------footer---------------
+-----------------------------*/
+footer {
+  color: white;
+  background-color: #242333;
+  padding: 20px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  background-color: #485166;
+  color: white; }
+
+.sameline {
+  margin: 0;
+  padding: 10px;
+  display: inline-block; }
+
+form {
+  padding: 20px;
+  border: 1px solid #c9c7cc; }
+
+.form-grp label {
+  margin: 20px; }
+
+.form-gri {
+  margin-left: 35px; }
+
+.imgcontact {
+    width: 65px;
+    height: 65px;
+    padding: 20px; }
+
+    .imgcontact:hover {
+      cursor: pointer;
+    }
+
+/* ----------footer---------------
+-----------------------------*/
+@media (min-width: 1000px) {
+#btnspc{
+  width: 35%;
+}
+}
+@media (max-width: 550px) {
+  .post img { 
+    width: 100%;
+    height: auto;
+    padding: 10%; }
+}
+@media (max-width: 500px) {
+
+  iframe {
+    width: 90%;
+    height: 200px;
+    text-align: center; }
+
+  #cover {
+    min-height: 600px;
+  }
+
+  #in-cover {
+    width: 70%;
+    padding-top: 200px;
+  }
+
+  #in-cover h1, #in-cover h2 {
+    font-size: 30px;
+    color: #e4e4e4;
+    line-height: 40.5px; }
+  
+  #in-cover h2 {
+      font-size: 18px;
+      color: #e4e4e4;
+      line-height: 40.5px; }
+
+  #profile-content p {
+    min-width: 340px;
+    text-align: center;
+    margin: 0; }
+
+  #profile-content img {
+    width:75%;
+    height:75%;
+  }
+
+  .container-custom {
+    width: 90%; }
+
+  #wrd, .test {
+    border: none; } }
+
