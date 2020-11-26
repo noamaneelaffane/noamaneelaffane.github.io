@@ -162,7 +162,7 @@ ul > li a:hover {
 .workedu-content {
   margin-top: 20px; }
 
-.jobs, .edu {
+.jobs, .edu, .prj {
   padding: 5px; }
 
 h6 {
@@ -229,6 +229,32 @@ form {
     .imgcontact:hover {
       cursor: pointer;
     }
+.pointer:hover {
+      cursor: pointer;}
+
+.collapsed:after{
+  content: "";
+  margin-left: 35px;
+  display: inline-block;
+  vertical-align: middle;
+  width: 25px;
+  height: 15px;
+  background: url('img/icons/collapsed.png') 0 0 no-repeat;
+  background-size: contain;
+}
+.pointer:not(.collapsed):after{
+  content: "";
+  margin-left: 35px;
+  display: inline-block;
+  vertical-align: middle;
+  width: 25px;
+  height: 15px;
+  background: url('img/icons/collapsed.png') 0 0 no-repeat;
+  background-size: contain;
+  transform: scaleY(-1);
+}
+
+
 
 /* ----------footer---------------
 -----------------------------*/
