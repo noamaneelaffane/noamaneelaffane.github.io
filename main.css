@@ -239,7 +239,7 @@ form {
   vertical-align: middle;
   width: 25px;
   height: 15px;
-  background: url('img/icons/collapsed.png') 0 0 no-repeat;
+  background: url("img/icons/collapsed.png") 0 0 no-repeat;
   background-size: contain;
 }
 .pointer:not(.collapsed):after{
@@ -249,7 +249,7 @@ form {
   vertical-align: middle;
   width: 25px;
   height: 15px;
-  background: url('img/icons/collapsed.png') 0 0 no-repeat;
+  background: url("img/icons/collapsed.png") 0 0 no-repeat;
   background-size: contain;
   transform: scaleY(-1);
 }
