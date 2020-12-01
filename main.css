@@ -175,6 +175,27 @@ h6 {
   margin: 0 auto;
   text-align: center;
   color: #494949; }
+#blog_head_more:after{
+  content: "";
+  margin-left: 35px;
+  display: inline-block;
+  vertical-align: middle;
+  width: 25px;
+  height: 15px;
+  background: url("img/icons/collapsed_black.png") 0 0 no-repeat;
+  background-size: contain;
+}
+#blog_head_more:not(.collapsed):after{
+  content: "";
+  margin-left: 35px;
+  display: inline-block;
+  vertical-align: middle;
+  width: 25px;
+  height: 15px;
+  background: url("img/icons/collapsed_black.png") 0 0 no-repeat;
+  background-size: contain;
+  transform: scaleY(-1);
+}
   #blog_head_more {
     border-bottom: 1px solid #f3f3f3;
     padding-bottom: 5px;
@@ -258,28 +279,6 @@ form {
   width: 25px;
   height: 15px;
   background: url("img/icons/collapsed.png") 0 0 no-repeat;
-  background-size: contain;
-  transform: scaleY(-1);
-}
-
-#blog_head_more:after{
-  content: "";
-  margin-left: 35px;
-  display: inline-block;
-  vertical-align: middle;
-  width: 25px;
-  height: 15px;
-  background: url("img/icons/collapsed_black.png") 0 0 no-repeat;
-  background-size: contain;
-}
-#blog_head_more:not(.collapsed):after{
-  content: "";
-  margin-left: 35px;
-  display: inline-block;
-  vertical-align: middle;
-  width: 25px;
-  height: 15px;
-  background: url("img/icons/collapsed_black.png") 0 0 no-repeat;
   background-size: contain;
   transform: scaleY(-1);
 }
